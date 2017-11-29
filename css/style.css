@@ -1,0 +1,297 @@
+body{
+  overflow-x:hidden;
+}
+
+.container-fluid{
+  margin:0;
+  padding:0;
+}
+
+p{
+  font-family:"Open Sans";
+}
+
+i{
+  color:#7559A6;
+}
+
+.social-icon i{
+    padding-right:20px;
+    padding-top:10px;
+    font-size:1.5em;
+  
+}
+
+.nav-item a:hover{
+  color:#7559A6;
+}
+
+.pageOne{
+  background-image:url("https://www.dropbox.com/s/brxi7evkkhg54u9/hero.png?raw=1");
+  background-repeat:no-repeat;
+  height:800px;  
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header{
+  color:#FFFFFF;
+  font-family:"Abril Fatface";
+  padding-top:300px;
+}
+
+.header i{
+  color:#FFFFFF;
+}
+
+.header h1{
+  font-size:5em;
+}
+
+.header h2{
+  font-size:3em
+}
+
+.header h6{
+  padding-top:230px;
+  font-family:"Open Sans";
+  font-size: 1.2em;
+}
+
+.pageTwo a{
+  color:#7559A6;
+}
+.pageTwo i{
+  color:#FFFFFF;
+}
+
+#siteButton{
+  background-color:#7559A6;
+  border:none;
+}
+
+#resumeButton{
+  background-color:#494949;
+  border:none;
+}
+
+.pageThree{
+ background-color:#EEEEEE;
+}
+
+.pageThree i{
+  text-shadow: 4px 4px #000000;
+}
+
+.pageFour .btn{
+  background-color:#7559A6
+}
+
+.card{
+  display:inline-block;
+  margin-bottom:15px;
+}
+
+
+.card h4{
+  font-family:"Abril Fatface";
+  font-size:1.2em
+}
+
+.card img{
+  width:250px;
+}
+
+.pageFive{
+  background-color:#7559A6;
+  height:500px;
+}
+
+.form-group{
+  width:80%;
+  padding-left:20%;
+}
+
+#submitButton{
+  margin-top: 2%;
+  float:left;
+}
+
+.pageFive h3{
+  color:#FFFFFF;
+  padding-top:15px;
+}
+
+.pageSix{
+  background-color:#2A3A3F;
+  height:50px;
+}
+
+.projectImg .img-fluid{
+  width:50%;
+}
+
+footer{
+  background-color:#2A3A3F;
+  color:#FFFFFF;
+}
+
+footer p{
+  text-align: center;
+  font-size:1.2em;
+}
+
+footer a{
+  color: #7559A6;
+  text-decoration: underline;
+  padding-left:10px;
+}
+
+footer a:hover{
+  color:#FFFFFF;
+}
+
+
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+ 
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+  
+
+  
+    .menu {
+        
+        padding:10px 18px;
+        border-radius:3px;
+        float:right;
+    }
+}
+ 
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
+}
+ 
+.menu li:last-child {
+    margin-right:0px;
+}
+
+.active{
+  float:right;
+}
+
+.extra{
+  padding-right:50px;
+}
+.menu a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:#FFFFFF;
+    transition:color linear 0.15s;
+    font-size:1.8em;
+    font-family:"Abril Fatface";
+}
+ 
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#7559A6;
+}
+ 
+
+ 
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+  
+    .wrap {
+        width:90%;
+    }
+}
+ 
+
+@media screen and (max-width: 860px) {
+  
+    .header h1{
+  font-size:3em;
+}
+
+.header h2{
+  font-size:2em
+}
+  
+ 
+  
+  .extra{
+    padding-right:0px;
+  }
+  
+  .toggle-nav{
+    width:100px;
+  }  
+  .menu {
+        position:relative;
+        display: inline-block;
+        float:right;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:right;
+        display:block;
+        font-size: .6em;
+    }
+ 
+  
+ 
+    .toggle-nav {
+        padding:40px;
+        float:right;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#7559A6;
+    }
+ 
+}
