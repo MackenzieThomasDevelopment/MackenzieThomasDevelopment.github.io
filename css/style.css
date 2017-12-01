@@ -203,7 +203,9 @@ footer a:hover{
     color:#7559A6;
 }
  
-
+textarea{
+    margin-top: 2em;
+}
  
 /*----- Responsive -----*/
 @media screen and (max-width: 1150px) {
